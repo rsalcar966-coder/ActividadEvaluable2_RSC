@@ -13,20 +13,20 @@ document.getElementById("idioma").textContent = window.navigator.language;
 
 
 // Ejercicio 2
-function ejercicio2(){
+function ejercicio2() {
     window.alert(window.innerWidth + " " + window.innerHeight);
 
 }
 
 // Ejercicio 3
-function ejercicio3_1(){
+function ejercicio3_1() {
     window.history.back();
 
 }
 
-function ejercicio3_2(){
+function ejercicio3_2() {
     window.location.reload();
-    
+
 }
 
 // Ejercicio 4
@@ -64,12 +64,12 @@ function ejercicio4_2() {
 }
 
 // Ejercicio 5
-function ejercicio5_1(){
+function ejercicio5_1() {
     window.open("https://google.com");
 
 }
 
-function ejercicio5_2(){
+function ejercicio5_2() {
     window.close();
 
 }
@@ -97,7 +97,7 @@ function ejercicio7() {
 }
 
 // Ejercicio 8
-function ejercicio8(){
+function ejercicio8() {
     if (window.innerWidth < 768) {
         window.alert("Ventana pequeña");
     } else {
